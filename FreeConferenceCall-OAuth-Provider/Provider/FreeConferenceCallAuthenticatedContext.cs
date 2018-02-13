@@ -37,7 +37,7 @@ namespace Owin.Security.Providers.FreeConferenceCall
             if (userJson != null && userJson["subscription"] != null) 
             {
                 // per https://www.freeconferencecall.com/api/v4/documentation#method-get-subscription
-                UserId = userJson["subscription"]["user_id"]?.Value<string>();
+                UserId = userJson["subscription"]["id"]?.Value<string>();
                 Email = userJson["subscription"]["email"]?.Value<string>();
                 GivenName = userJson["subscription"]["first_name"]?.Value<string>();
                 Surname = userJson["subscription"]["last_name"]?.Value<string>();
