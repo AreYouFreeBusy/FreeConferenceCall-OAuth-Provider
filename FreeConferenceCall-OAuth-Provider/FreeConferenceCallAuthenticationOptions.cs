@@ -16,7 +16,7 @@ namespace Owin.Security.Providers.FreeConferenceCall
         public FreeConferenceCallAuthenticationOptions() : base(Constants.DefaultAuthenticationType) 
         {
             Caption = Constants.DefaultAuthenticationType;
-            CallbackPath = new PathString("/signin-FreeConferenceCall");
+            CallbackPath = new PathString("/signin-freeconferencecall");
             AuthenticationMode = AuthenticationMode.Passive;
             BackchannelTimeout = TimeSpan.FromSeconds(60);
             Scope = new List<string>();
