@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Owin.Security.Providers.FreeConferenceCall</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>Owin.Security.Providers.FreeConferenceCall</title>
     <authors>Stefan Negritoiu (FreeBusy)</authors>
     <owners>Stefan Negritoiu (FreeBusy)</owners>
